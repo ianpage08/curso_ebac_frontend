@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <style>
+        body{
+            background-color: burlywood;
+        }
+        form{
+            background-color: aliceblue;
+            border-radius: 10px;
+            padding: 10px;
+            width: 60vw;
+            margin: auto;
+            text-align: center;
+        }
+        div {
+            padding: 2px;
+            font-size: 1.5em;
+        }
+        h1, p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Formulário de Cadastro</h1>
+    </header>
+    <form method="post" autocomplete="on" >
+        <div>
+            <label for="nome ">Nome:</label> 
+            <input type="text" name="user" id="nome" placeholder="Nome Completo">
+        </div> 
+        <div>
+            <label for="email">E-mail:</label> 
+            <input type="email" name="em" id="email" placeholder="E-mail">
+        </div>
+        <div>
+            <label for="senha">Senha:</label>  
+            <input type="password" name="pass" id="senha" minlength="8" maxlength="20" placeholder="Senha">
+        </div>
+        <div><button type="submit">Cadastro</button> 
+            <button type="reset">Limpar</button>
+        </div>
+    </form>
+    <footer>
+        <p>Exercicio Curso Ebac</p>
+    </footer>
+</body>
+</html>
