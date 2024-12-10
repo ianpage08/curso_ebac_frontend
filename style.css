@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    font-size: 2.5em;
+    color: rgb(255, 77, 77);
+    padding: 10px;
+    
+}
+h2{
+    font-size: 2em;
+}
+time{
+    font-weight: 500;
+}
+h3{
+    margin: 5px 0px;
+    font-size: 1.2em;
+
+}
+p {
+
+    width: 400px;
+    text-align: justify;
+    
+}
+#cabeca{
+    background-color: rgb(70, 70, 70);
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 10px;
+    justify-content: space-between;
+}
+header > ul {
+    list-style-type: none;
+    
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.2em;
+}
+header ul > nav > li > a{
+    text-decoration: none;
+    background-color: azure;
+    color: black;
+    padding: 6px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+header ul > nav > li > a:hover{
+    background-color: chocolate;
+    transition-duration: 0.5s;
+}
+a {
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 5px 0px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    
+    
+}
+a:hover {
+    background-color: greenyellow;
+    transition-duration: 0.5s;
+}
+#esportes {
+    background-color: aqua;
+    padding: 20px;
+    
+}
+#economia{
+    background-color: rgb(96, 163, 141);
+    padding: 20px;
+}
+#filmes {
+    background-color: bisque;
+    padding: 20px;
+}
+#jogos{
+    background-color: burlywood;
+    padding: 20px;
+}
+.display{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+    
+}
+article{
+    margin: 30px;
+    
+}
+img {
+    width: 400px;
+    height: 200px;
+}
